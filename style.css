@@ -17,17 +17,17 @@ header{
 .navbar .logo img{
     width: 40px;
     height: 40px;
-    margin: 15px;
+    margin: 10px 0 0 20px;
 }
 .navbar .logo p{
-    margin: 30px 0px;
+    margin: 25px 10px;
     font-size: 27px;
     font-family: sans-serif;
     color: white;
 }
 .navbar .lists{
     float: right;
-    margin-top: -90px;
+    margin-top: -74px;
     display: flex;
 }
 .navbar .lists ul{
@@ -154,7 +154,7 @@ header{
 .about_me #resume{
     margin: 15px 0 0 60px;
     height: 40px;
-    width: 150px;
+    width: 180px;
     font-size: 18px;
     border-radius: 10px;
     border: none;
@@ -177,7 +177,7 @@ header{
     border-radius: 50%;
 }
 .services h1{
-    margin: 150px 0 0 45%;
+    margin: 150px 0 0 44%;
     font-size: 34px;
     color: blue;
     text-decoration: underline;
@@ -186,7 +186,7 @@ header{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
-    gap: 1rem;
+    gap: 0.8rem;
 }
 .serv{
     margin: 30px 0 0 30px;
@@ -230,16 +230,16 @@ header{
 .contact-me{
     margin: 50px 0 0 36%;
     display: block;
-
 }
 .contact-me h1{
     font-size: 34px;
+    margin: 0 10px 0 0px;
     font-weight: 700;
     color: blue;
     font-family: sans-serif;
 }
 .contact-me form{
-    height: 410px;
+    height: 490px;
     width: 450px;
     border: 1px solid black;
     border-radius: 10px;
@@ -247,22 +247,23 @@ header{
     padding: 2rem 2.5rem;
 }
 form .input2{
-    padding: 1px 20px 0 0;
+    padding: 12px 20px 0;
 }
 form .input2 input{
+    margin: 0 60px 10px -17px;
     width: 360px;
     border: none;
     border-bottom: 2px solid black;
-    padding: 15px 0px 5px 0;
-    font-size: 18px;
+    padding: 8px 0px 5px;
+    font-size: 16px;
     background: none;
     outline: none;
 }
 form .input2 span{
-    position: relative;
-    top: -23px;
-    margin: 20px 0;
-    padding: 18px 0px;
+    position: absolute;
+    left: 507px;
+    margin: -35px 0 0 0;
+    padding: 0px 17px 0 0;
     font-size: 16px;
     pointer-events: none;
     transition: 0.5s;
@@ -272,45 +273,58 @@ form .input2 span{
 }
 form .input2 input:valid ~ span,
 form .input2 input:focus ~ span{
-    font-size: 18px;
-    transform: translateY(17px);
+    font-size: 17px;
+    transform: translateY(-24px);
 }
 form textarea{
-    height: 130px;
-    border: 1px solid black;
+    height: 170px;
+    margin: 10px 0 0 0;
+    border: 2px solid black;
     border-radius: 6px;
+    padding: 5px;
     font-size: 16px;
-    width: 370px;
+    width: 363px;
+}
+form textarea p{
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    margin: 10px 0 0 0px;
+    pointer-events: none;
 }
 form input[type="submit"]{
     height: 35px;
     width: 150px;
     font-size: 18px;
     border-radius: 10px;
-    margin: 10px 0 10px 110px;
+    margin: 18px 0 0px 110px;
     background-color: blue;
+    border: none;
     color: white;
+}
+form input[type="submit"]:hover{
+    color: orangered;
 }
 .foot-end{
     position: relative;
     background-color: #091423;
     width: 100%;
-    height: 40vh;
+    height: 35vh;
     padding: 10px 200px;
 }
-.follow{
+.follow2{
     align-items: center;
     justify-content: center;
-    margin: 40px 300px 0px 0px;
+    margin: 40px 300px 0px 330px;
 }
-.follow img{
+.follow2 img{
     height: 30px;
     width: 30px;
     margin-left: 25px;
 }
 .navbar2{
     float: right;
-    margin: 15px 200px 0 0;
+    margin: 15px 240px 0 0px;
     display: flex;
 }
 .navbar2  ul{
@@ -331,11 +345,11 @@ form input[type="submit"]{
 }
 .navbar2 ul li a:hover{
     color: blue;
-    text-decoration: underline;
+    text-decoration: underline ;
 }
 .foot-end p{
     font-size: 20px;
-    margin: 180px 0px 0 400px;
+    margin: 100px 0px 0 330px;
 }
 
 
