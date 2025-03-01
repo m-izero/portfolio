@@ -8,7 +8,21 @@
 header{
     height: 100vh;
     width: 100%;
-    background-color: #091423
+    background-image: url(photos/newbackground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*#myVideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}*/
+.navbar{
+    position: relative;
 }
 .navbar .logo{
     display: flex;
@@ -61,16 +75,17 @@ header{
     font-weight: 500;
     margin: 15px 10px;
 }
+.img_me{
+    position: relative;
+}
 .img_me img{
     height: 548px;
     width: 380px;
-    margin: 20px 0px 0px 100px;
-    top: 80px;
+    margin: 100px 0px 0px 100px;
 }
 .description{
-    margin: -440px 100px 0px 600px;
-}
-.description{
+    position: relative;
+    margin: -480px 100px 0px 600px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
 }
@@ -79,11 +94,13 @@ header{
 }
 .description h1 #word_orange{
     color: orangered;
-
 }
 .description p{
-    font-size: 20px;
+    font-size: 35px;
     color: white;
+}
+.description #describing-me{
+    font-size: 30px;
 }
 .description p #name{
     color: blue;
@@ -110,6 +127,7 @@ header{
     border: 1px solid orangered;
 }
 .follow{
+    position: relative;
     float: right;
     margin: 40px 0px 0px 0px;
 }
@@ -189,7 +207,7 @@ header{
     gap: 0.8rem;
 }
 .serv{
-    margin: 30px 0 0 30px;
+    margin: 30px 0 0 100px;
     padding: 5px;
     background-color: rgb(24, 104, 224);
     height: 300px;
@@ -262,7 +280,7 @@ form .input2 input{
 form .input2 span{
     position: absolute;
     left: 507px;
-    margin: -35px 0 0 0;
+    margin: -35px 0 0 60px;
     padding: 0px 17px 0 0;
     font-size: 16px;
     pointer-events: none;
@@ -307,7 +325,7 @@ form input[type="submit"]:hover{
 }
 .foot-end{
     position: relative;
-    background-color: #091423;
+    background-color: #05316d;
     width: 100%;
     height: 35vh;
     padding: 10px 200px;
@@ -315,7 +333,7 @@ form input[type="submit"]:hover{
 .follow2{
     align-items: center;
     justify-content: center;
-    margin: 40px 300px 0px 330px;
+    margin: 40px 300px 0px 390px;
 }
 .follow2 img{
     height: 30px;
@@ -323,8 +341,7 @@ form input[type="submit"]:hover{
     margin-left: 25px;
 }
 .navbar2{
-    float: right;
-    margin: 15px 240px 0 0px;
+    margin: 15px 240px 0 345px;
     display: flex;
 }
 .navbar2  ul{
@@ -349,7 +366,7 @@ form input[type="submit"]:hover{
 }
 .foot-end p{
     font-size: 20px;
-    margin: 100px 0px 0 330px;
+    margin: 20px 0px 0px 400px;
 }
 
 
